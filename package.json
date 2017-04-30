@@ -1,6 +1,6 @@
 {
   "name": "spee.ch",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "spee.ch is a simple but powerful image hosting service on top of the LBRY protocol.",
   "main": "webpack.config.js",
   "scripts": {

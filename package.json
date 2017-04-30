@@ -1,11 +1,12 @@
 {
   "name": "spee.ch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "spee.ch is a simple but powerful image hosting service on top of the LBRY protocol.",
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server --inline --hot",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "html-webpack-plugin": "^2.28.0",
     "hyperxify": "^2.0.1",
+    "standard-version": "^4.0.0",
     "transform-loader": "^0.2.4",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.5"

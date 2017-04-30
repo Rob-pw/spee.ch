@@ -1,14 +1,17 @@
 import { app } from 'hyperapp';
+import * as main from './app';
 
-function render () {
-  const root = document.getElementById('app')
+function render() {
+  const root = document.getElementById('app');
+
   if (root) {
-    root.innerHTML = ''
-    app({ ...require('./app'), root })
+    root.innerHTML = '';
+    app({ ...main, root });
   }
 }
 
 if (module.hot) {
-  module.hot.accept(render)
+  module.hot.accept(render);
 }
-render()
+
+render();

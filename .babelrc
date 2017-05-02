@@ -1,8 +1,5 @@
 {
   "presets": [
     "stage-3"
-  ],
-  "plugins": [
-    ["transform-react-jsx", { "pragma": "h" }]
   ]
 }
